@@ -1,0 +1,245 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#test {
+    margin-top: 6%;
+    margin-right: 5%;
+    color: white;
+    text-align: left;
+    font-size: 80px;
+    position: absolute;
+    right: 0px;
+}
+#test1 {
+    margin-top: 13%;
+    margin-right: 5%;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+}
+
+
+
+#style {
+    color: rgb(167, 167, 167);
+    text-align: center;
+    width:  auto;
+    background-color: #4d0000;
+    border-top: solid black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    
+
+
+}
+
+
+
+
+body{
+    background-color: #111111;
+}
+
+
+
+
+.BAC {
+
+    height: 380px;
+    width: auto;
+    background-image: url(https://media.discordapp.net/attachments/745385848375345243/745391486484611162/banner_placeholder.jpg);
+    box-shadow: 0px 28px 51px -24px rgba(0,0,0,0.80);
+    border-bottom: solid 7px #540404;
+    
+}
+
+
+
+
+
+
+
+
+#bu1 {
+    position: absolute;
+    margin-top: 13%;
+    left: 100px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    height: 50px;
+    width: 300px;
+    border: none;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 35px 63px -29px rgba(0,0,0,0.51);
+    transition: all .2s ease-in-out; 
+}
+#bu2 {
+    position: absolute;
+    text-align: center;
+    margin-top: 9%;
+    left: 100px;
+    background-color: #ac0707;
+    height: 60px;
+    width: 300px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 35px 63px -29px rgba(0,0,0,0.51);
+    transition: all .2s ease-in-out; 
+    border-style: dashed 15px;
+    border: 2px dashed  #000000;
+    
+}
+
+
+#bu2:hover{
+    padding: 3px;
+    background-color: #6e0909;
+    border: 1px dashed  #ffffff;
+    box-shadow: 0px 35px 63px -29px rgba(0,0,0,0.80);
+    transform: scale(1.1); 
+}
+#bu1:hover{
+    box-shadow: 0px 35px 63px -29px rgba(0,0,0,0.80);
+   
+    transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+
+
+
+
+.back {
+    transition: all .2s ease-in-out;   
+}
+
+.back :hover{
+    transform: scale(2.2); 
+}
+
+
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+img{
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0px 0px 51px 0px rgba(1,17,17,1);
+}
+
+
+
+
+
+#cube2 { 
+    width: 411px;
+    height: 284px;
+    background-image: url(https://media.discordapp.net/attachments/716459128297357362/745389097694134472/fun3.jpg);
+    border-radius: 5px;
+}
+
+#cube1 { 
+    width: 411px;
+    height: 284px;
+    background-image: url(https://cdn.discordapp.com/attachments/716459128297357362/745389100147933214/fun2.jpg);
+    border-radius: 5px;
+}
+
+#cube3 { 
+    width: 411px;
+    height: 284px;
+    background-image: url(https://cdn.discordapp.com/attachments/716459128297357362/745389100030492742/fun1.jpg);
+    border-radius: 5px;
+}
+
+
+.cubev {
+    display: flex;
+}
+.cube {
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 1px solid #000000;
+    transition: all .4s ease-in-out;  
+    box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.90);
+    bottom: 15%;
+    
+}
+.cube:hover{
+    transform: scale(1.1); 
+}
+
+
+#p1 {
+    font-family: 'Markazi Text', serif;
+    text-align-last: right;
+    font-size: 200%;
+    color: white;
+    margin-top: 2%;
+    margin-right: 88%;  
+}
+
+
+
+
+.tip {
+    border: 2px dashed  #000000;
+    background-color: #ac0707;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    height: 60px;
+    margin-top: 30px;
+    transition: all .2s ease-in-out; 
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 51px 0px rgba(1,17,17,50);
+}
+
+.tip:hover{
+    transform: scale(1.1); 
+}
+
